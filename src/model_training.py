@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score
 from transformers import BertTokenizer, TFBertModel
-import tensorflow as tf
+# import tensorflow as tf
 import re
 import math
 import shap
