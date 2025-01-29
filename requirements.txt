@@ -151,7 +151,6 @@ python-json-logger==2.0.7
 python-pptx==1.0.2
 python-whois==0.9.5
 pytz==2024.2
-pywinpty==2.0.13
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
