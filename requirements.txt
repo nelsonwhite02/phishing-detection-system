@@ -186,7 +186,6 @@ sympy==1.13.1
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-tensorflow_intel==2.18.0
 termcolor==2.5.0
 terminado==0.18.1
 textblob==0.18.0.post0
