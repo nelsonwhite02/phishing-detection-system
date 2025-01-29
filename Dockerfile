@@ -1,13 +1,13 @@
-# Use official lightweight Python image
+# Use a lightweight Python image
 FROM python:3.10-slim
 
-# Install system dependencies
+# Install required system packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
-    curl \
     libssl-dev \
     libffi-dev \
     rustc \
+    cargo \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory
@@ -19,7 +19,7 @@ COPY . /app
 # Install Python dependencies
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 
-# Expose the port
+# Expose the port (change if needed)
 EXPOSE 8080
 
 # Run the application
